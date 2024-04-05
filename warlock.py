@@ -5,12 +5,17 @@ import os
 
 import shutil
 
+import subprocess
+
 username = raw_input("Enter username:")
 print("Username is: " + username)
 
 val = input("Enter your value: ") 
 
 print(val) 
+
+subprocess.run(['banner.sh'])
+
 
 print("LOADING CODE TO BAN AND LOCK NUMBER")
 
